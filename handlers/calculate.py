@@ -23,7 +23,7 @@ router = Router()
 
 POWER_KW = 0.35              # мощность принтера, кВт
 ELECTRICITY_RATE = 7.0       # руб/кВт*ч
-DEPRECIATION_RATE = 30.0     # руб/час
+DEPRECIATION_RATE = 15.0     # руб/час
 
 
 async def start_calc(message: Message, state: FSMContext):
